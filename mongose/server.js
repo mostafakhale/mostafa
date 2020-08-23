@@ -32,5 +32,5 @@ mongoose.connect("mongodb+srv://mostafa:mostafa@cluster0.uzvic.mongodb.net/test"
 
 process.env.PORT
 app.listen(process.env.PORT||3000,()=>{
-    console.log("hello");
+    console.log("hello world");
 })
